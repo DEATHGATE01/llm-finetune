@@ -5,7 +5,9 @@ import json
 from pathlib import Path
 from typing import Dict, List, Optional
 
-from src.preprocessing.tokenizer import load_tokenizer
+from peft import PeftConfig, PeftModel
+
+from src.model.load_model import build_quant_config, load_model, load_tokenizer
 from src.utils.config import get_model_config, get_paths
 
 
@@ -67,15 +69,39 @@ def run_generation(
 			)
 	else:
 		import torch
-		from transformers import AutoModelForCausalLM
 
-		tokenizer = load_tokenizer(model_name)
-		model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto")
+		model_cfg = get_model_config()
+		# Use configured quantization path to avoid CPU/disk offload stalls on Colab.
+		quant_cfg = build_quant_config(model_cfg)
+		model_path = Path(model_name)
+
+		if model_path.exists() and (model_path / "adapter_config.json").exists():
+			peft_cfg = PeftConfig.from_pretrained(model_name)
+			base_name = peft_cfg.base_model_name_or_path
+			tokenizer = load_tokenizer(base_name)
+			base_model = load_model(
+				model_name=base_name,
+				quant_config=quant_cfg,
+				trust_remote_code=model_cfg.trust_remote_code,
+				device_map=model_cfg.device_map,
+			)
+			model = PeftModel.from_pretrained(base_model, model_name)
+		else:
+			tokenizer = load_tokenizer(model_name)
+			model = load_model(
+				model_name=model_name,
+				quant_config=quant_cfg,
+				trust_remote_code=model_cfg.trust_remote_code,
+				device_map=model_cfg.device_map,
+			)
+
+		model.eval()
+		model_device = next(model.parameters()).device
 
 		for item in samples:
 			prompt = build_prompt(item)
 			encoded = tokenizer(prompt, return_tensors="pt")
-			encoded = {k: v.to(model.device) for k, v in encoded.items()}
+			encoded = {k: v.to(model_device) for k, v in encoded.items()}
 			with torch.no_grad():
 				generated_ids = model.generate(
 					**encoded,
