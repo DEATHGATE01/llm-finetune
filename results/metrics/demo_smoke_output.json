@@ -1,0 +1,7 @@
+{
+  "prompt": "Explain hashing",
+  "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
+  "finetuned_model": "D:\\Gen Ai\\fine-tune-llm\\results\\finetuned_model",
+  "base_response": "This is a generic baseline response. It explains the topic briefly but may miss domain-specific depth. Prompt summary: Explain hashing",
+  "finetuned_response": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Explain hashing"
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: Explain binary search in simple terms, for a final-year student, with one real-world example.",
+    "input": "",
+    "reference": "From an interview perspective, Binary search repeatedly halves a sorted array to locate a value. It compares the middle element and discards one half each step. Its time complexity is logarithmic, making it efficient on large sorted data. One practical example is implementing Data Structures and Algorithms and measuring the effect before and after. Document assumptions so future changes stay safe and predictable. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: Explain binary search in simple terms, for a final-year student, with o"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: Explain binary search in simple terms, for a final-year student, with one real-world example.",
+    "input": "",
+    "reference": "In simple terms, Binary search repeatedly halves a sorted array to locate a value. It compares the middle element and discards one half each step. Its time complexity is logarithmic, making it efficient on large sorted data. For example, a small task around Data Structures and Algorithms can demonstrate the full flow clearly. Document assumptions so future changes stay safe and predictable. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: Explain binary search in simple terms, for a final-year student, with o"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: Explain binary search in simple terms, with practical context, with one real-world example.",
+    "input": "",
+    "reference": "For a beginner, Binary search repeatedly halves a sorted array to locate a value. It compares the middle element and discards one half each step. Its time complexity is logarithmic, making it efficient on large sorted data. A concrete example would be reviewing Data Structures and Algorithms in a code walkthrough with teammates. Use simple, readable implementations before adding extra abstraction. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: Explain binary search in simple terms, with practical context, with one"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: Explain binary search in simple terms, with practical context, without unnecessary theory.",
+    "input": "",
+    "reference": "At a high level, Binary search repeatedly halves a sorted array to locate a value. It compares the middle element and discards one half each step. Its time complexity is logarithmic, making it efficient on large sorted data. As a quick example, imagine handling Data Structures and Algorithms in a student project and validating the result. Use simple, readable implementations before adding extra abstraction. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: Explain binary search in simple terms, with practical context, without "
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: How does a hash table handle collisions, with practical context, with implementation intuition.",
+    "input": "",
+    "reference": "For a beginner, Collisions occur when multiple keys map to the same index. Common strategies include chaining and open addressing. Good hash functions reduce collision frequency. A concrete example would be reviewing Data Structures and Algorithms in a code walkthrough with teammates. Use simple, readable implementations before adding extra abstraction. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: How does a hash table handle collisions, with practical context, with i"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: How does a hash table handle collisions, with practical context, without unnecessary theory.",
+    "input": "",
+    "reference": "At a high level, Collisions occur when multiple keys map to the same index. Common strategies include chaining and open addressing. Good hash functions reduce collision frequency. As a quick example, imagine handling Data Structures and Algorithms in a student project and validating the result. Use simple, readable implementations before adding extra abstraction. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: How does a hash table handle collisions, with practical context, withou"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: What is the difference between stack and queue, for a final-year student, with implementation intuition.",
+    "input": "",
+    "reference": "From an interview perspective, A stack follows last-in, first-out behavior. A queue follows first-in, first-out behavior. Stacks are common in recursion; queues are common in scheduling. One practical example is implementing Data Structures and Algorithms and measuring the effect before and after. Document assumptions so future changes stay safe and predictable. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: What is the difference between stack and queue, for a final-year studen"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: What is the difference between stack and queue, for a final-year student, with implementation intuition.",
+    "input": "",
+    "reference": "In simple terms, A stack follows last-in, first-out behavior. A queue follows first-in, first-out behavior. Stacks are common in recursion; queues are common in scheduling. For example, a small task around Data Structures and Algorithms can demonstrate the full flow clearly. Document assumptions so future changes stay safe and predictable. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: What is the difference between stack and queue, for a final-year studen"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: What is the difference between stack and queue, for a final-year student, without unnecessary theory.",
+    "input": "",
+    "reference": "From an interview perspective, A stack follows last-in, first-out behavior. A queue follows first-in, first-out behavior. Stacks are common in recursion; queues are common in scheduling. One practical example is implementing Data Structures and Algorithms and measuring the effect before and after. Document assumptions so future changes stay safe and predictable. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: What is the difference between stack and queue, for a final-year studen"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: What is the difference between stack and queue, with practical context, with implementation intuition.",
+    "input": "",
+    "reference": "For a beginner, A stack follows last-in, first-out behavior. A queue follows first-in, first-out behavior. Stacks are common in recursion; queues are common in scheduling. A concrete example would be reviewing Data Structures and Algorithms in a code walkthrough with teammates. Use simple, readable implementations before adding extra abstraction. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: What is the difference between stack and queue, with practical context,"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: What is the difference between stack and queue, with practical context, with one real-world example.",
+    "input": "",
+    "reference": "At a high level, A stack follows last-in, first-out behavior. A queue follows first-in, first-out behavior. Stacks are common in recursion; queues are common in scheduling. As a quick example, imagine handling Data Structures and Algorithms in a student project and validating the result. Use simple, readable implementations before adding extra abstraction. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: What is the difference between stack and queue, with practical context,"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: What is the difference between stack and queue, with practical context, without unnecessary theory.",
+    "input": "",
+    "reference": "At a high level, A stack follows last-in, first-out behavior. A queue follows first-in, first-out behavior. Stacks are common in recursion; queues are common in scheduling. As a quick example, imagine handling Data Structures and Algorithms in a student project and validating the result. Use simple, readable implementations before adding extra abstraction. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: What is the difference between stack and queue, with practical context,"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: What is the difference between stack and queue, with practical context, without unnecessary theory.",
+    "input": "",
+    "reference": "For a beginner, A stack follows last-in, first-out behavior. A queue follows first-in, first-out behavior. Stacks are common in recursion; queues are common in scheduling. A concrete example would be reviewing Data Structures and Algorithms in a code walkthrough with teammates. Use simple, readable implementations before adding extra abstraction. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: What is the difference between stack and queue, with practical context,"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: What is the time complexity of merge sort and why, for a final-year student, without unnecessary theory.",
+    "input": "",
+    "reference": "From an interview perspective, Merge sort runs in O(n log n) time consistently. It splits the list recursively and merges sorted halves. Its predictable performance makes it reliable for large inputs. One practical example is implementing Data Structures and Algorithms and measuring the effect before and after. Document assumptions so future changes stay safe and predictable. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: What is the time complexity of merge sort and why, for a final-year stu"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: What is the time complexity of merge sort and why, for a final-year student, without unnecessary theory.",
+    "input": "",
+    "reference": "In simple terms, Merge sort runs in O(n log n) time consistently. It splits the list recursively and merges sorted halves. Its predictable performance makes it reliable for large inputs. For example, a small task around Data Structures and Algorithms can demonstrate the full flow clearly. Document assumptions so future changes stay safe and predictable. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: What is the time complexity of merge sort and why, for a final-year stu"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: What is the time complexity of merge sort and why, with practical context, with one real-world example.",
+    "input": "",
+    "reference": "For a beginner, Merge sort runs in O(n log n) time consistently. It splits the list recursively and merges sorted halves. Its predictable performance makes it reliable for large inputs. A concrete example would be reviewing Data Structures and Algorithms in a code walkthrough with teammates. Use simple, readable implementations before adding extra abstraction. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: What is the time complexity of merge sort and why, with practical conte"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: What is the time complexity of merge sort and why, with practical context, without unnecessary theory.",
+    "input": "",
+    "reference": "At a high level, Merge sort runs in O(n log n) time consistently. It splits the list recursively and merges sorted halves. Its predictable performance makes it reliable for large inputs. As a quick example, imagine handling Data Structures and Algorithms in a student project and validating the result. Use simple, readable implementations before adding extra abstraction. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: What is the time complexity of merge sort and why, with practical conte"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: When should we use BFS instead of DFS in graph traversal, for a final-year student, with one real-world example.",
+    "input": "",
+    "reference": "In simple terms, BFS is ideal for shortest paths in unweighted graphs. DFS is often used for exploration, backtracking, and cycle checks. Selection depends on the problem goal and memory constraints. For example, a small task around Data Structures and Algorithms can demonstrate the full flow clearly. Document assumptions so future changes stay safe and predictable. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: When should we use BFS instead of DFS in graph traversal, for a final-y"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: When should we use BFS instead of DFS in graph traversal, with practical context, with implementation intuition.",
+    "input": "",
+    "reference": "For a beginner, BFS is ideal for shortest paths in unweighted graphs. DFS is often used for exploration, backtracking, and cycle checks. Selection depends on the problem goal and memory constraints. A concrete example would be reviewing Data Structures and Algorithms in a code walkthrough with teammates. Use simple, readable implementations before adding extra abstraction. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: When should we use BFS instead of DFS in graph traversal, with practica"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: When should we use BFS instead of DFS in graph traversal, with practical context, with one real-world example.",
+    "input": "",
+    "reference": "At a high level, BFS is ideal for shortest paths in unweighted graphs. DFS is often used for exploration, backtracking, and cycle checks. Selection depends on the problem goal and memory constraints. As a quick example, imagine handling Data Structures and Algorithms in a student project and validating the result. Use simple, readable implementations before adding extra abstraction. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: When should we use BFS instead of DFS in graph traversal, with practica"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: When should we use BFS instead of DFS in graph traversal, with practical context, with one real-world example.",
+    "input": "",
+    "reference": "For a beginner, BFS is ideal for shortest paths in unweighted graphs. DFS is often used for exploration, backtracking, and cycle checks. Selection depends on the problem goal and memory constraints. A concrete example would be reviewing Data Structures and Algorithms in a code walkthrough with teammates. Use simple, readable implementations before adding extra abstraction. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: When should we use BFS instead of DFS in graph traversal, with practica"
+  },
+  {
+    "instruction": "Break down this Data Structures and Algorithms concept: When should we use BFS instead of DFS in graph traversal, with practical context, without unnecessary theory.",
+    "input": "",
+    "reference": "For a beginner, BFS is ideal for shortest paths in unweighted graphs. DFS is often used for exploration, backtracking, and cycle checks. Selection depends on the problem goal and memory constraints. A concrete example would be reviewing Data Structures and Algorithms in a code walkthrough with teammates. Use simple, readable implementations before adding extra abstraction. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Data Structures and Algorithms concept: When should we use BFS instead of DFS in graph traversal, with practica"
+  },
+  {
+    "instruction": "Break down this Databases concept: Explain primary key and foreign key with an example, for a final-year student, with one real-world example.",
+    "input": "",
+    "reference": "From an interview perspective, A primary key uniquely identifies rows in a table. A foreign key references another table's primary key. Together they enforce relational integrity. One practical example is implementing Databases and measuring the effect before and after. Document assumptions so future changes stay safe and predictable. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Databases concept: Explain primary key and foreign key with an example, for a final-year student, with one real"
+  },
+  {
+    "instruction": "Break down this Databases concept: Explain primary key and foreign key with an example, for a final-year student, with one real-world example.",
+    "input": "",
+    "reference": "In simple terms, A primary key uniquely identifies rows in a table. A foreign key references another table's primary key. Together they enforce relational integrity. For example, a small task around Databases can demonstrate the full flow clearly. Document assumptions so future changes stay safe and predictable. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Databases concept: Explain primary key and foreign key with an example, for a final-year student, with one real"
+  },
+  {
+    "instruction": "Break down this Databases concept: Explain primary key and foreign key with an example, for a final-year student, without unnecessary theory.",
+    "input": "",
+    "reference": "In simple terms, A primary key uniquely identifies rows in a table. A foreign key references another table's primary key. Together they enforce relational integrity. For example, a small task around Databases can demonstrate the full flow clearly. Document assumptions so future changes stay safe and predictable. A short revision strategy is to connect the concept to one real use case.",
+    "prediction": "This is a fine-tuned style response with clearer structure and stronger technical precision. It adds practical framing and keeps the explanation aligned to the instruction. Prompt summary: Instruction: Break down this Databases concept: Explain primary key and foreign key with an example, for a final-year student, without unnec"
+  }
+]

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+results/finetuned_model/
+results/logs/
+
+# Keep generated artifacts only when explicitly needed
+# results/base_outputs/
+# results/finetuned_outputs/
+# results/metrics/
