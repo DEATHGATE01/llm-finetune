@@ -14,15 +14,15 @@ This project builds an instruction-following assistant using a custom synthetic 
 
 Use [notebooks/colab_training.ipynb](notebooks/colab_training.ipynb) when you want to run the full Mistral + QLoRA workflow on a GPU runtime.
 
-### Colab flow
+### Recommended Colab flow
 
 1. Open the notebook in Colab.
 2. Switch runtime to GPU.
-3. Install dependencies.
-4. Mount Google Drive and point `PROJECT_ROOT` to your repository folder.
+3. Clone the GitHub repo inside Colab.
+4. Install dependencies.
 5. Run the training cell with `USE_4BIT=true`.
 6. Generate base and fine-tuned predictions.
-7. Compare metrics and save outputs to Drive.
+7. Compare metrics and save outputs to Drive if you want persistence.
 
 ### Recommended Colab settings
 
@@ -44,7 +44,7 @@ python.exe -m src.training.train --max-train-samples 16 --max-eval-samples 8
 
 ## Real training on Colab
 
-Run this from the repository root inside Colab:
+Run this from the repository root inside Colab after cloning the GitHub repo:
 
 ```bash
 export USE_4BIT=true
@@ -52,6 +52,17 @@ export MODEL_NAME=mistralai/Mistral-7B-Instruct-v0.2
 export MAX_LENGTH=1024
 python -m src.training.train --max-train-samples 128 --max-eval-samples 32
 ```
+
+### GitHub clone setup in Colab
+
+In Colab, run:
+
+```bash
+!git clone https://github.com/DEATHGATE01/llm-finetune.git
+%cd llm-finetune
+```
+
+Then run the notebook cells in order.
 
 ## Output locations
 
